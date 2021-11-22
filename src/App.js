@@ -1,6 +1,6 @@
 import './App.css';
 import Login from './Login';
-import { Router, Link } from "@reach/router"
+import { Router } from "@reach/router"
 import OrderMenu from './OrderMenu';
 
 function App() {

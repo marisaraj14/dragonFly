@@ -10,9 +10,11 @@ export default function Order() {
             <section className="flex justify-center p-2">
                 <table>
                     <thead>
+                        <tr>
                         <th>Qty</th>
                         <th>Item</th>
                         <th>Amt</th>
+                        </tr>
                     </thead>
                     <tbody className="overflow-y-scroll h-32 p-2">
                         <tr>

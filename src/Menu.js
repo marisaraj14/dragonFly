@@ -2,7 +2,7 @@ export default function Menu() {
     return (
         <>
             <section>
-                <input type="text" className="w-11/12 mt-8 p-2 rounded-md" placeHolder="Searh for Items" />
+                <input type="text" className="w-11/12 mt-8 p-2 rounded-md" placeholder="Searh for Items" />
                 <i className="fa fa-search text-2xl text-green-600 -ml-10"></i>
             </section>
             <article className="flex flex-nowrap " >
