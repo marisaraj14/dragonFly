@@ -1,0 +1,34 @@
+//PAYMENT
+<section className="bg-green-200 h-auto p-4 mt-8 rounded-md">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td className="font-bold w-11/12">SubTotal</td>
+                            <td>$10</td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold w-11/12">Total</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold w-11/12">Amount Paid</td>
+                            <td>$997980</td>
+                        </tr>
+                        <tr>
+                            <td className="font-bold w-11/12">Change</td>
+                            <td>$10</td>
+                        </tr>
+                    </tbody>
+                </table>
+</section>
+//PAYMENT METHODS
+<section className="bg-yellow-300 rounded p-2 w-full flex justify-around">
+                <i className="fa fa-money text-blue-800 text-5xl font-bold"></i>
+                <i className='fa fa-credit-card text-blue-800 text-5xl font-bold'></i>
+                <i className="fa fa-trash text-5xl text-blue-800 font-bold"></i>
+            </section>
+//Search bar
+{/* <section>
+    <input type="text" className="w-11/12 mt-8 p-2 rounded-md" placeholder="Searh for Items" />
+    <i className="fa fa-search text-2xl text-green-600 -ml-10"></i>
+</section> */}

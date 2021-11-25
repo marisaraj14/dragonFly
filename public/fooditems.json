@@ -1,0 +1,72 @@
+[
+    {
+        "itemId": "01",
+        "itemName": "Quinua",
+        "price": "₹30",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "02",
+        "itemName": "Pizza",
+        "price": "₹60",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "03",
+        "itemName": "Burger",
+        "price": "₹20",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "04",
+        "itemName": "Kitkat",
+        "price": "₹70",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "05",
+        "itemName": "Malt",
+        "price": "₹80",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "06",
+        "itemName": "Cheese Sticks",
+        "price": "₹20",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "07",
+        "itemName": "Duck",
+        "price": "₹90",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "08",
+        "itemName": "Pav Bhaji",
+        "price": "₹20",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "09",
+        "itemName": "Insects",
+        "price": "₹90",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    },
+    {
+        "itemId": "10",
+        "itemName": "Rice Chongs",
+        "price": "₹80",
+       "quantity": "1",
+        "imgUrl": "https://www.freeiconspng.com/thumbs/fast-food-png/fast-food-png-most-popular-fast-food-snacks-in-your-area-and-most--3.png"
+    }
+]
