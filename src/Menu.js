@@ -8,9 +8,9 @@ export default function Menu(props) {
                     props.addItem(food);
                 }
             }>
-            <img src={food.imgUrl} alt="food" className="w-20 col-start-1" />
-            <p>{food.itemName}</p>
-            <p>{food.price}</p>
+            <img src={food[4]} alt="food" className="w-20 col-start-1" />
+            <p>{food[1]}</p>
+            <p>{food[2]}</p>
         </section>
     );
 
