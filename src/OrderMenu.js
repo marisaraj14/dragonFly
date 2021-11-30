@@ -5,24 +5,11 @@ import { useEffect, useState, useRef } from "react";
 import { useSelector, useDispatch } from 'react-redux';
 import { addItem, removeItem, updateItemQty } from './orderSlice';
 
-function usePrevious(value) {
-    // The ref object is a generic container whose current property is mutable ...
-    // ... and can hold any value, similar to an instance property on a class
-    const ref = useRef();
-    // Store current value in ref
-    useEffect(() => {
-        ref.current = value;
-    }, [value]); // Only re-run if value changes
-    // Return previous value (happens before update in useEffect above)
-    return ref.current;
-}
-
 export default function OrderMenu(props) {
 
     const [index, setIndex] = useState(-1);
     const items = useSelector(order => order.items);
     const dispatch = useDispatch();
-    const prevCount = usePrevious(items.length);
 
     const setQuantity = function (qty) {
         dispatch(updateItemQty({ index: index, quantity: qty }))
@@ -33,11 +20,6 @@ export default function OrderMenu(props) {
         dispatch(removeItem(index));
         setIndex(-1);
     }
-
-    useEffect(() => {
-        if (prevCount < items.length)
-            setIndex(items.length - 1);
-    }, [items.length])
 
     const addItemCallBack = (food) => {
         let currentFood = null;
@@ -50,6 +32,8 @@ export default function OrderMenu(props) {
 
         if (!currentFood) {
             dispatch(addItem(food))
+            //Updates the next item length
+            setIndex(items.length)
         }
     }
 
